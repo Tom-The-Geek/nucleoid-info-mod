@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nucleoid-info-mod",
+  "version": "${version}",
+  "name": "Nucleoid Info Mod",
+  "description": "Show player counts on Nucleoid",
+  "authors": [
+    "Tom_The_Geek"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nucleoid-info-mod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.github.tom_the_geek.nim.NucleoidInfoMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nucleoid-info-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.5.0"
+  }
+}

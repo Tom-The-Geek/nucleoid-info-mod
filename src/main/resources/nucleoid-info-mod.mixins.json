@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.github.tom_the_geek.nim.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinMultiplayerScreen",
+    "MixinServerEntry"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
